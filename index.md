@@ -1,145 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP code pulse
+title: OWASP Code Pulse
 tags: example-tag
 level: 0
 type: tool
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-# Main
 
-<div style="width:100%;height:90px;border:0,margin:0;overflow: hidden;">
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-![_lab_big.jpg](_lab_big.jpg "_lab_big.jpg")
+{front matter for this file}
 
-</div>
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h2 id="about_code_pulse">About Code Pulse</h2>
-<p>The OWASP Code Pulse Project is a tool that provides insight into the real-time code coverage of black box testing activities. It is a cross-platform desktop application that runs on most major platforms.</p>
-<p>The OWASP Code Pulse Project is a tool that provides insight into the real-time code coverage of black box testing activities. It is a cross-platform desktop application that runs on most major platforms.</p>
-<figure>
-<figure>
-<img src="Codepulse-screenshot.png" title="Codepulse-screenshot.png" alt="Codepulse-screenshot.png" width="600" /><figcaption>Codepulse-screenshot.png</figcaption>
-<img src="Codepulse-screenshot.png" title="Codepulse-screenshot.png" alt="Codepulse-screenshot.png" width="600" /><figcaption>Codepulse-screenshot.png</figcaption>
-</figure>
-</figure>
-<h2 id="how_it_works">How it works</h2>
-<h2 id="how_it_works">How it works</h2>
-<p>Code Pulse does its magic by monitoring the runtime of the target application using an agent-based approach. Code Pulse currently supports Java programs, up to Java 11, and .NET Framework programs for CLR versions 2 and 4. It can track code coverage details at the method or source code level to show what's being called and when. Although Code Pulse works for desktop applications, our current focus is on providing the best experience for web application testing. Code Pulse 2.6 incorporates the <a href="https://www.owasp.org/index.php/OWASP_Attack_Surface_Detector_Project">OWASP Attack Surface Detector</a> and helps you see code coverage details for the endpoints of a web application.</p>
-<p>Code Pulse does its magic by monitoring the runtime of the target application using an agent-based approach. Code Pulse currently supports Java programs, up to Java 11, and .NET Framework programs for CLR versions 2 and 4. It can track code coverage details at the method or source code level to show what's being called and when. Although Code Pulse works for desktop applications, our current focus is on providing the best experience for web application testing. Code Pulse 2.6 incorporates the <a href="https://www.owasp.org/index.php/OWASP_Attack_Surface_Detector_Project">OWASP Attack Surface Detector</a> and helps you see code coverage details for the endpoints of a web application.</p>
-<h2 id="why_code_pulse">Why Code Pulse?</h2>
-<h2 id="why_code_pulse">Why Code Pulse?</h2>
-<p>Whereas in the past it’s been very difficult to understand which parts of an application a DAST or manual penetration test covered, Code Pulse automatically detects the coverage information while the tests are being conducted and will even make it possible to understand the overlaps and boundaries of the different tools’ coverage.</p>
-<p>Whereas in the past it’s been very difficult to understand which parts of an application a DAST or manual penetration test covered, Code Pulse automatically detects the coverage information while the tests are being conducted and will even make it possible to understand the overlaps and boundaries of the different tools’ coverage.</p>
-<p>Code Pulse presents the coverage information in a visual form to make it easy to understand at-a-glance which parts of an application have been covered, and how much. The real-time coverage feedback makes it easy to adjust testing activity based on the observed coverage. In addition for testing activities relying on multiple techniques (a variety of dynamic analysis tools for instance), it’s fairly easy to split up the recorded activity to understand which code was covered by each tool independently or to view where the coverage overlaps between multiple tools.</p>
-<p>Code Pulse presents the coverage information in a visual form to make it easy to understand at-a-glance which parts of an application have been covered, and how much. The real-time coverage feedback makes it easy to adjust testing activity based on the observed coverage. In addition for testing activities relying on multiple techniques (a variety of dynamic analysis tools for instance), it’s fairly easy to split up the recorded activity to understand which code was covered by each tool independently or to view where the coverage overlaps between multiple tools.</p>
-<h2 id="licensing">Licensing</h2>
-<h2 id="licensing">Licensing</h2>
-<p>OWASP Code Pulse project is free to use. It is licensed under the Apache 2.0 License.</p></td>
-<p>OWASP Code Pulse project is free to use. It is licensed under the Apache 2.0 License.</p></td>
-<ul>
-<li><a href="http://code-pulse.com">Code Pulse Website</a></li>
-<li><a href="https://github.com/codedx/codepulse/releases">Download Latest Release</a></li>
-<li><a href="https://github.com/codedx/codepulse/wiki">Documentation</a></li>
-<li><a href="https://github.com/codedx/codepulse">Github Project Page</a></li>
-</ul>
-<h2 id="news_and_events">News and Events</h2>
-<ul>
-<li><span style="background: #66CCFF; font-size:85%;padding:2px;">04 Jan 2019</span> <a href="https://github.com/codedx/codepulse/releases/tag/v2.6.1">Version 2.6.1 is out!</a></li>
-<li><span style="background: #66CCFF; font-size:85%;padding:2px;">12 Nov 2018</span> <a href="https://github.com/codedx/codepulse/releases/tag/v2.6.0">Version 2.6.0 is out!</a></li>
-<li><span style="background: #66CCFF; font-size:85%;padding:2px;">08 Aug 2018</span> <a href="https://github.com/codedx/codepulse/releases/tag/v2.5.0">Version 2.5.0 is out!</a></li>
-</ul>
-<h2 id="contact_us">Contact Us</h2>
-<p>Project Leader: Ken Prole</p>
-<p>Email: <a href="mailto:ken.prole@codedx.com">ken.prole@codedx.com</a></p>
-<ul>
-<li><a href="https://twitter.com/codedx">@CodeDx</a></li>
-<li><a href="mailto:support@codedx.com">Email us</a></li>
-<li><a href="https://github.com/codedx/codepulse/issues">Create an issue</a></li>
-<li><a href="https://lists.owasp.org/mailman/listinfo/owasp_code_pulse_project">OWASP project email List</a></li>
-</ul>
-<h2 id="related_projects">Related Projects</h2>
-<ul>
-<li><a href="OWASP_Attack_Surface_Detector_Project" title="wikilink">OWASP Attack Surface Detector Project</a></li>
-<li><a href="OWASP_Zed_Attack_Proxy_Project" title="wikilink">OWASP Zed Attack Proxy Project</a></li>
-<li><a href="OWASP_Dependency_Check" title="wikilink">OWASP Dependency Check</a></li>
-</ul>
-<h2 id="classifications">Classifications</h2>
-<table>
-<tbody>
-<tr class="odd">
-<img src="New_projects.png" title="New_projects.png" alt="New_projects.png" width="100" /><figcaption>New_projects.png</figcaption>
-</figure></td>
-<img src="Owasp-breakers-small.png" title="Owasp-breakers-small.png" alt="Owasp-breakers-small.png" /><figcaption>Owasp-breakers-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="odd">
-<img src="Cc-button-y-sa-small.png" title="Cc-button-y-sa-small.png" alt="Cc-button-y-sa-small.png" /><figcaption>Cc-button-y-sa-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Project_Type_Files_TOOL.jpg" title="Project_Type_Files_TOOL.jpg" alt="Project_Type_Files_TOOL.jpg" /><figcaption>Project_Type_Files_TOOL.jpg</figcaption>
-</figure></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-# Road Map and Getting Involved
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
 
-The initial version of Code Pulse, version 1.0, was released in early
-May 2014. Since then, we've pushed out multiple versions to address some
-usability issues and to include support for Java 11, .NET Framework
-applications, an [OWASP Dependency
-Check](OWASP_Dependency_Check "wikilink") integration, and code coverage
-details at the source code level.
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
 
-Long-term there are a number of things on our roadmap that we’d like to
-add to Code Pulse. The following is a partial list of features we’d like
-to add to Code Pulse as we continue development on it:
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
 
-\- Web request filter
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
 
-\- Performance improvements
+```
+{info.md}
 
-Involvement in the development and promotion of Code Pulse is actively
-encouraged\!
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
 
-You do not have to be a security expert in order to contribute.
+{leaders.md}
 
-Some of the ways you can help:
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
 
-  - Code contributions
-  - Testing
-  - Wiki documentation
-  - Spreading the word about the project\!
-
-Visit the [Code Pulse GitHub project
-page](https://github.com/codedx/codepulse) to see the source.
-
-# Sponsors
-
-Code Pulse is maintained and developed by [Code
-Dx](https://codedx.com/).
-
-Code Pulse is based on research sponsored by the Department of Homeland
-Security (DHS) Science and Technology Directorate, Cyber Security
-Division (DHS S\&T/CSD), BAA via contract numbers FA8750-12-C-0219 and
-HHSP233201600058C.
-
-__NOTOC__ <headertabs />
-
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
+-->
