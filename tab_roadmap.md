@@ -3,7 +3,7 @@ title: Roadmap
 displaytext: Road Map and Getting Involved
 layout: null
 tab: true
-order: 1
+order: 3
 tags: road-map
 ---
 
