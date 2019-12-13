@@ -3,11 +3,11 @@ title: Sponsors
 displaytext: Sponsors
 layout: null
 tab: true
-order: 2
+order: 3
 tags: code-pulse
 ---
 
-### Sponsors
+## Sponsors
 
 Code Pulse is maintained and developed by [Code Dx](https://codedx.com/).
 
