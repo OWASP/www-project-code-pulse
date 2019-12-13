@@ -1,5 +1,6 @@
 ---
-title: Road Map and Getting Involved
+title: Roadmap
+displaytext: Road Map and Getting Involved
 layout:  null
 tab: true
 order: 2
