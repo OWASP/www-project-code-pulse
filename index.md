@@ -13,6 +13,8 @@ type: tool
 
 The OWASP Code Pulse Project is a tool that provides insight into the real-time code coverage of black box testing activities. It is a cross-platform desktop application that runs on most major platforms.
 
+![Codepulse Screenshot](assets/images/Codepulse-screenshot.png)
+
 ## How it works
 
 Code Pulse does its magic by monitoring the runtime of the target application using an agent-based approach. Code Pulse currently supports Java programs, up to Java 11, and .NET Framework programs for CLR versions 2 and 4. It can track code coverage details at the method or source code level to show what's being called and when. Although Code Pulse works for desktop applications, our current focus is on providing the best experience for web application testing. Code Pulse 2.6 incorporates the OWASP Attack Surface Detector and helps you see code coverage details for the endpoints of a web application.
