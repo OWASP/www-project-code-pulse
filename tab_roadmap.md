@@ -1,10 +1,10 @@
 ---
 title: Roadmap
-displaytext: Roadmap
+displaytext: Road Map and Getting Involved
 layout: null
 tab: true
 order: 2
-tags: road-map
+tags: code-pulse
 ---
 
 ## Road Map and Getting Involved
