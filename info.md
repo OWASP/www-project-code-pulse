@@ -15,7 +15,6 @@
 * [CodeDx twitter](https://twitter.com/codedx)
 * [Email us](mailto://support@codedx.com)
 * [Create an issue](https://github.com/codedx/codepulse/issues)
-* [OWASP project email List] ()
 
 ### Related Projects
 * [OWASP Attack Surface Detector Project](https://www2.owasp.org/www-project-attack-surface-detector/)
