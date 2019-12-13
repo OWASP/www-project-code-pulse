@@ -2,53 +2,27 @@
 
 layout: col-sidebar
 title: OWASP Code Pulse
-tags: example-tag
-level: 0
+tags: code-pulse
+level: 4
 type: tool
-
-auto-migrated: 1
-auto-migrated: 1
 
 ---
 
 
-<!-- Standard Chapter Page Template
-This is an example of a Project or Chapter page.
-Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## About Code Pulse
 
-{front matter for this file}
+The OWASP Code Pulse Project is a tool that provides insight into the real-time code coverage of black box testing activities. It is a cross-platform desktop application that runs on most major platforms.
 
-```
-- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
-- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
-- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-- region: This is the region you are in according to our data
-```
+## How it works
 
-{copy for this file (index.md)}
-Replace the text above the commented area with your information in the format below:
-```
-## Welcome
-Include some information here about your chapter
+Code Pulse does its magic by monitoring the runtime of the target application using an agent-based approach. Code Pulse currently supports Java programs, up to Java 11, and .NET Framework programs for CLR versions 2 and 4. It can track code coverage details at the method or source code level to show what's being called and when. Although Code Pulse works for desktop applications, our current focus is on providing the best experience for web application testing. Code Pulse 2.6 incorporates the OWASP Attack Surface Detector and helps you see code coverage details for the endpoints of a web application.
 
-## Participation
-The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
+## Why Code Pulse?
 
-Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
+Whereas in the past it’s been very difficult to understand which parts of an application a DAST or manual penetration test covered, Code Pulse automatically detects the coverage information while the tests are being conducted and will even make it possible to understand the overlaps and boundaries of the different tools’ coverage.
 
-Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
+Code Pulse presents the coverage information in a visual form to make it easy to understand at-a-glance which parts of an application have been covered, and how much. The real-time coverage feedback makes it easy to adjust testing activity based on the observed coverage. In addition for testing activities relying on multiple techniques (a variety of dynamic analysis tools for instance), it’s fairly easy to split up the recorded activity to understand which code was covered by each tool independently or to view where the coverage overlaps between multiple tools.
 
-## Local News
-- Meeting Location
-- Everyone is welcome to join us at our chapter meetings.
+## Licensing
 
-```
-{info.md}
-
-This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
-
-{leaders.md}
-
-Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
-
--->
+OWASP Code Pulse project is free to use. It is licensed under the Apache 2.0 License.
