@@ -1,6 +1,6 @@
 ---
 title: Roadmap
-displaytext: Road Map and Getting Involved
+displaytext: Roadmap
 layout: null
 tab: true
 order: 2
@@ -13,9 +13,9 @@ The initial version of Code Pulse, version 1.0, was released in early May 2014. 
 
 Long-term there are a number of things on our roadmap that we’d like to add to Code Pulse. The following is a partial list of features we’d like to add to Code Pulse as we continue development on it:
 
-- Web request filter
+* Web request filter
 
-- Performance improvements
+* Performance improvements
 
 Involvement in the development and promotion of Code Pulse is actively encouraged!
 
