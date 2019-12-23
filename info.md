@@ -15,7 +15,7 @@
 * [CodeDx twitter](https://twitter.com/codedx)
 * [Email us](mailto://support@codedx.com)
 * [Create an issue](https://github.com/codedx/codepulse/issues)
-* [Get Access](https://coreruleset.org/20181003/owasp-crs-slack/) to join the discussion in the OWASP Slack Channel, #code-pulse.
+* [Get Access](http://owaspslack.com/) to join the discussion in the OWASP Slack Channel, #code-pulse.
 
 ### Related Projects
 * [OWASP Attack Surface Detector Project](https://www2.owasp.org/www-project-attack-surface-detector/)
