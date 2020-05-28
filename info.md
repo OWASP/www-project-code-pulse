@@ -15,12 +15,12 @@
 * [CodeDx twitter](https://twitter.com/codedx)
 * [Email us](mailto://support@codedx.com)
 * [Create an issue](https://github.com/codedx/codepulse/issues)
-* [Get Access](http://owaspslack.com/) to join the discussion in the OWASP Slack Channel, #code-pulse.
+* [Get Access](https://owasp-slack.herokuapp.com/) to join the discussion in the OWASP Slack Channel, #code-pulse.
 
 ### Related Projects
-* [OWASP Attack Surface Detector Project](https://www2.owasp.org/www-project-attack-surface-detector/)
-* [OWASP Zed Attack Proxy Project](https://www2.owasp.org/www-project-zap/)
-* [OWASP Dependency Check](https://www2.owasp.org/www-project-dependency-check/)
+* [OWASP Attack Surface Detector Project](https://www.owasp.org/www-project-attack-surface-detector/)
+* [OWASP Zed Attack Proxy Project](https://www.owasp.org/www-project-zap/)
+* [OWASP Dependency Check](https://www.owasp.org/www-project-dependency-check/)
 
 ### Classifications
 [![New projects](assets/images/New_projects.png)](https://www.owasp.org/index.php/OWASP_Project_Stages#tab=Incubator_Projects)
