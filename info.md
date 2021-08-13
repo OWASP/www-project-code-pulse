@@ -11,9 +11,8 @@
 
 ### Contact Us
 * Project Leader: Ken Prole
-* Email: [ken.prole@codedx.com](mailto://ken.prole@codedx.com)
+* Email: [ken.prole@synopsys.com](mailto://ken.prole@synopsys.com)
 * [CodeDx twitter](https://twitter.com/codedx)
-* [Email us](mailto://support@codedx.com)
 * [Create an issue](https://github.com/codedx/codepulse/issues)
 * [Get Access](https://owasp-slack.herokuapp.com/) to join the discussion in the OWASP Slack Channel, #code-pulse.
 
