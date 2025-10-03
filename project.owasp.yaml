@@ -1,0 +1,141 @@
+audience:
+  - breaker
+  - defender
+leaders:
+  - name: Ken Prole
+    email: ken.prole@owasp.org
+    github: KenProle
+level: 3
+license:
+  - Apache-2.0
+  - BSD-3-Clause
+  - CC0-1.0
+  - MIT
+name: OWASP Code Pulse
+pitch: Description for OWASP Code Pulse
+repositories:
+  - name: www-project-code-pulse
+    url: https://github.com/OWASP/www-project-code-pulse
+    description: OWASP Foundation Web Repository
+  - name: argo-helm
+    url: https://github.com/codedx/argo-helm
+    description: ArgoProj Helm Charts
+  - name: burp-extension
+    url: https://github.com/codedx/burp-extension
+    description: Burp Suite plugin to send data to Code Dx software vulnerability management system
+  - name: bytefrog
+    url: https://github.com/codedx/bytefrog
+    description: Execution tracing framework for the JVM
+  - name: bytefrog-clients
+    url: https://github.com/codedx/bytefrog-clients
+  - name: cecil
+    url: https://github.com/codedx/cecil
+    description: Cecil is a library to inspect, modify and generate .NET programs and libraries.
+  - name: charts
+    url: https://github.com/codedx/charts
+    description: Helm Charts
+  - name: codedx-api-client-java
+    url: https://github.com/codedx/codedx-api-client-java
+    description: Code Dx API client library in/for Java
+  - name: codedx-bamboo-plugin
+    url: https://github.com/codedx/codedx-bamboo-plugin
+    description: Bamboo plugin for Code Dx
+  - name: codedx-cli-client
+    url: https://github.com/codedx/codedx-cli-client
+    description: Command line interface for Code Dx's REST API
+  - name: codedx-github-action
+    url: https://github.com/codedx/codedx-github-action
+  - name: codedx-kubernetes
+    url: https://github.com/codedx/codedx-kubernetes
+    description: Deploy Code Dx on Kubernetes (deprecated)
+  - name: codedx-teamcity-plugin
+    url: https://github.com/codedx/codedx-teamcity-plugin
+    description: TeamCity plugin to add build step that sends files to the Code Dx software vulnerability management system
+  - name: codedx-toml2json
+    url: https://github.com/codedx/codedx-toml2json
+    description: Converts TOML to JSON
+  - name: codedx-vsts-build-extension
+    url: https://github.com/codedx/codedx-vsts-build-extension
+    description: Visual Studio Team Services build and release extension to send artifacts to Code Dx
+  - name: codepulse
+    url: https://github.com/codedx/codepulse
+    description: Code Pulse is a real-time code coverage tool for penetration testing activities
+  - name: codepulse-website
+    url: https://github.com/codedx/codepulse-website
+    description: script to generate Code Pulse's website
+  - name: dependency-track
+    url: https://github.com/codedx/dependency-track
+    description: Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply
+      chain.
+  - name: doc-md
+    url: https://github.com/codedx/doc-md
+    description: Doc MD is a markdown to HTML generator for user guides
+  - name: dotnet-symbol-service
+    url: https://github.com/codedx/dotnet-symbol-service
+    description: A micro HTTP service that extracts symbol information from dotNET assemblies and symbol files.
+  - name: eslint
+    url: https://github.com/codedx/eslint
+    description: Find and fix problems in your JavaScript code.
+  - name: eslintrc
+    url: https://github.com/codedx/eslintrc
+    description: The legacy ESLintRC config file format for ESLint
+  - name: GDS-PMD-Security-Rules
+    url: https://github.com/codedx/GDS-PMD-Security-Rules
+    description: Custom security ruleset for the popular Java static analysis tool PMD.
+  - name: guided-setup
+    url: https://github.com/codedx/guided-setup
+    description: A framework for installing an application on a Kubernetes cluster using a setup wizard based on a directed graph.
+  - name: gulp
+    url: https://github.com/codedx/gulp
+    description: Forked version of gulp that excludes the 'watch' functionality due to dependency issues - see the 'no-watch' branch
+  - name: kubernetes-helm-charts
+    url: https://github.com/codedx/kubernetes-helm-charts
+    description: Curated applications for Kubernetes
+  - name: logback
+    url: https://github.com/codedx/logback
+    description: The reliable, generic, fast and flexible logging framework for Java.
+  - name: mapk
+    url: https://github.com/codedx/mapk
+    description: Scala Map-like class with higher-kind key and value types
+  - name: mono-tools
+    url: https://github.com/codedx/mono-tools
+    description: The mono-tools package contains a series of extra tools for Mono users.
+  - name: opencover
+    url: https://github.com/codedx/opencover
+    description: A code coverage tool for .NET 2 and above (WINDOWS OS only), support for 32 and 64 processes with both branch and sequence points
+  - name: retire.js
+    url: https://github.com/codedx/retire.js
+    description: scanner detecting the use of JavaScript libraries with known vulnerabilities
+  - name: scssify
+    url: https://github.com/codedx/scssify
+    description: Browserify transfomer to compile Sass styles and optionally inject them into the browser. Plus watchify support!
+  - name: shared-module.g8
+    url: https://github.com/codedx/shared-module.g8
+    description: g8 template for creating shared module projects related to Code Dx
+  - name: sqlmap
+    url: https://github.com/codedx/sqlmap
+    description: Automatic SQL injection and database takeover tool
+  - name: srm-add-ins
+    url: https://github.com/codedx/srm-add-ins
+    description: SRM Add-In Tools
+  - name: srm-docker
+    url: https://github.com/codedx/srm-docker
+    description: Deploy Software Risk Manager with Docker Compose
+  - name: srm-k8s
+    url: https://github.com/codedx/srm-k8s
+    description: Deploy Software Risk Manager on Kubernetes
+  - name: webapp-runner
+    url: https://github.com/codedx/webapp-runner
+    description: Forked to update Tomcat dependency to 9.0.65
+  - name: zap-extensions
+    url: https://github.com/codedx/zap-extensions
+    description: OWASP ZAP Add-ons
+  - name: zaproxy
+    url: https://github.com/codedx/zaproxy
+    description: The OWASP ZAP core project
+tags:
+  - code-pulse
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-code-pulse
